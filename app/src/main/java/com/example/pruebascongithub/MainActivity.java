@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+//TONTO EL QUE LO LEA
         btnSaludo = (Button) findViewById(R.id.btnSaludo);
         
         

@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        String a = "asdasdasdasdas";
 
         btnSaludo = (Button) findViewById(R.id.btnSaludo);
         
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btnSaludo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Hola Bienvenido!!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Hola Bienvenido!!!"+a, Toast.LENGTH_SHORT).show();
             }
         });
     }
